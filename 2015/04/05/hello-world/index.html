@@ -65,7 +65,7 @@ This is the first article recording">
         <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/04/05/hello-world/" class="article-date">
-  <time datetime="2015-04-05T13:13:14.000Z" itemprop="datePublished">2015-04-05</time>
+  <time datetime="2015-04-05T15:46:07.000Z" itemprop="datePublished">2015-04-05</time>
 </a>
     
   <div class="article-category">
@@ -109,14 +109,16 @@ This is the first article recording">
 <h1 id="Deploy_to_github">Deploy to github</h1><p>First config git and hexo:</p>
 <h4 id="1-Setup_Git">1.Setup Git</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"Your Name"</span></span><br><span class="line">$ git config --global user.email <span class="string">"your-email@xxx.com"</span></span><br></pre></td></tr></table></figure>
 <h4 id="2-Setup_hexo">2.Setup hexo</h4><p>vim ~/gitblog/_config.yml and set deploy info like below:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: github</span><br><span class="line">  repo: git@github.com:xxxx/xxxx.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
-<p>*xxxx/xxxx.github.io.git is a url of repository on Github. [Here][<a href="https://help.github.com/articles/create-a-repo/" target="_blank" rel="external">https://help.github.com/articles/create-a-repo/</a>] tells how to create a repository.</p>
+<p>*xxxx/xxxx.github.io.git is a url of repository on Github. <a href="https://help.github.com/articles/create-a-repo/" target="_blank" rel="external">Here</a> tells how to create a repository.</p>
 <h4 id="3-Deploy_to_remote_sites">3.Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/04/05/hello-world/" data-id="ci84jayqt0000bgz9dvyj1en4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/04/05/hello-world/" data-id="ci84memgy0000dez9ykdw46m9" class="article-share-link">Share</a>
+      
+        <a href="http://yoursite.com/2015/04/05/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/build-blog/">build_blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/start/">start</a></li></ul>
@@ -128,6 +130,12 @@ This is the first article recording">
   
 </article>
 
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 </section>
         
           <aside id="sidebar">
@@ -185,6 +193,20 @@ This is the first article recording">
   
 </aside>
         
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'lanterngithub';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
       </div>
       <footer id="footer">
   
@@ -204,6 +226,20 @@ This is the first article recording">
   
 </nav>
     
+<script>
+  var disqus_shortname = 'lanterngithub';
+  
+  var disqus_url = 'http://yoursite.com/2015/04/05/hello-world/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
